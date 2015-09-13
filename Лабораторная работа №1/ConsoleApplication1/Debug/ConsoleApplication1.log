@@ -1,32 +1,8 @@
-﻿Сборка начата 10.09.2015 20:58:48.
+﻿Сборка начата 13.09.2015 14:33:12.
      1>Проект "C:\Users\Roman\Documents\YandexDisk\Лабораторная работа №1\ConsoleApplication1\ConsoleApplication1.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
-         D:\VisualStudio 2013\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\лабораторная работа №1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Abiturient.cpp ConsoleApplication1.cpp
-         Abiturient.cpp
-     1>c:\users\roman\documents\yandexdisk\лабораторная работа №1\consoleapplication1\abiturient.cpp(10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\visualstudio 2013\vs2013\vc\include\string.h(112): см. объявление "strcpy"
-     1>c:\users\roman\documents\yandexdisk\лабораторная работа №1\consoleapplication1\abiturient.cpp(11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\visualstudio 2013\vs2013\vc\include\string.h(112): см. объявление "strcpy"
-     1>c:\users\roman\documents\yandexdisk\лабораторная работа №1\consoleapplication1\abiturient.cpp(12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\visualstudio 2013\vs2013\vc\include\string.h(112): см. объявление "strcpy"
-     1>c:\users\roman\documents\yandexdisk\лабораторная работа №1\consoleapplication1\abiturient.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\visualstudio 2013\vs2013\vc\include\string.h(112): см. объявление "strcpy"
-     1>c:\users\roman\documents\yandexdisk\лабораторная работа №1\consoleapplication1\abiturient.cpp(14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\visualstudio 2013\vs2013\vc\include\string.h(112): см. объявление "strcpy"
-     1>c:\users\roman\documents\yandexdisk\лабораторная работа №1\consoleapplication1\abiturient.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\visualstudio 2013\vs2013\vc\include\string.h(112): см. объявление "strcpy"
-     1>c:\users\roman\documents\yandexdisk\лабораторная работа №1\consoleapplication1\abiturient.cpp(34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\visualstudio 2013\vs2013\vc\include\string.h(112): см. объявление "strcpy"
-     1>c:\users\roman\documents\yandexdisk\лабораторная работа №1\consoleapplication1\abiturient.cpp(35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\visualstudio 2013\vs2013\vc\include\string.h(112): см. объявление "strcpy"
-     1>c:\users\roman\documents\yandexdisk\лабораторная работа №1\consoleapplication1\abiturient.cpp(36): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\visualstudio 2013\vs2013\vc\include\string.h(112): см. объявление "strcpy"
-     1>c:\users\roman\documents\yandexdisk\лабораторная работа №1\consoleapplication1\abiturient.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\visualstudio 2013\vs2013\vc\include\string.h(112): см. объявление "strcpy"
-         Создание кода...
-         Компиляция...
+         D:\VisualStudio 2013\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\лабораторная работа №1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp
          ConsoleApplication1.cpp
-         Создание кода...
        Link:
          D:\VisualStudio 2013\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Roman\Documents\YandexDisk\Лабораторная работа №1\Debug\лабораторная работа №1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Roman\Documents\YandexDisk\Лабораторная работа №1\Debug\лабораторная работа №1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Roman\Documents\YandexDisk\Лабораторная работа №1\Debug\лабораторная работа №1.lib" /MACHINE:X86 Debug\Abiturient.obj
          Debug\ConsoleApplication1.obj
@@ -36,4 +12,4 @@
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:01.91
+Затраченное время: 00:00:01.14

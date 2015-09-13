@@ -1,25 +1,54 @@
 #include "stdafx.h" 
 #include "Abiturient.h"
 #include <iostream> 
-
+using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
 {
-	const int n = 4;
-	int a[n];
+	
 	system("chcp 1251");
-	Abiturient a1, a2;
-	for (int i = 1; i > 5; i++)
+	Abiturient a[30];
+	int n;
+	cout << "введите количество абитуриентов :";
+	cin >> n;
+	for (int i = 1; i < n+1; i++)
 	{
-		std::cout << "введите  ";
-		std::cin >> a[i];
+		cout << i << " студент";
+		a[i].setID_and_Marks();
+		a[i].setFamilia_Adress_Number();
+		system("cls");
+
 	}
-	a1.setID_and_Marks(01,a[n]);
-	a1.setFamilia_Adress_Number("Пушкин", "Александр", "Сергеевич", "Ясная поляна 26", "002002002");
-	a2.setID_and_Marks(02, a[n]);
-	a2.setFamilia_Adress_Number("Демидов", "Александр", "Демидович", "Ясная поляна 26", "002002002");
-	//char* q = a1.getName();
-	//int w = a1.getAge();
-	a1.print();
-	a2.print();
+	int b;
+	for (;;)
+	{
+		cout << "---МЕНЮ---" << endl;
+		cout << "1___вывод всей информации" << endl;
+		cout << "2___вывод плохих отметок" << endl;
+		cout << "3___вывод хороших абитуриентов" << endl;
+		cout << "4___вывод абитуриентов, с суммой баллов выше заданной" << endl;
+		cout << "5___выход" << endl;
+		cin >> b;
+		system("cls");
+		cout << endl;
+		switch (b)
+		{
+		case 1:
+			for (int i = 1; i < n+1; i++)
+			{
+				a[i].print();
+			}
+			
+			break;
+		case 2:
+			for (int i = 1; i < n+1; i++)
+			{
+				a[i].printBad();
+			}
+			
+			break;
+		
+		}
+	}
+	
 	return 0;
 }
