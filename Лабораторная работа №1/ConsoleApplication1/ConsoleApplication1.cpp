@@ -19,9 +19,9 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	}
 
-	int b;
+	int b,d;
 	
-	for (;;)
+	do
 	{
 		cout << endl<<endl;
 		cout<< "------------------------МЕНЮ--------------------------" << endl;
@@ -32,6 +32,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		cout << "5___выход" << endl;
 		cin >> b;
 		system("cls");
+		d = 0;
 		cout << endl;
 		switch (b)
 		{
@@ -69,29 +70,47 @@ int _tmain(int argc, _TCHAR* argv[])
 			break;
 		case 4:
 			cout << "Задайте количество:" << endl;
-			int kolvo,b,max[30];
+			int kolvo,max[30],buf;
 			cin >> kolvo;
 			cout << "n абитуриентов, имеющих самую высокую сумму баллов: " << endl;
 			
 				for (int i = 0; i < n; i++)
 				{
-					max[i] = 0;
-
-					b = a[i].printGood(kolvo);
-					if (i = 1) max[i - 1] = 0;
-					if (b>max[i] && b<max[i-1]) max[i]=b;
-							
-			} 
-				for (int i = 1; i < kolvo+1; i++)
+					
+					max[i] = a[i+1].Good();
+					
+ 				} 
+				for (int i = 0; i < n-1 ;i++)
+				for (int j = i + 1; j < n; j++)
+				{   
+					if (max[i]<max[j])
+					{
+						buf = max[i];
+						max[i] = max[j];
+						max[j] = buf;
+						
+					}
+				
+				}
+				
+				for (int i = 0; i < kolvo; i++)
 				{
-					cout << max[i] << " ";
+					for (int d = 0; d < n+1 ; d++)
+					{
+						if (a[d].Good() == max[i])
+						{
+							a[d].VyvodGood();
+
+						}
+
+					}
 				}
 				
 			break;
 		case 5:
-			break;
+			d = 10; break;
 		}
-	}
-	
+				
+	} while (d != 10);
 	return 0;
 }
