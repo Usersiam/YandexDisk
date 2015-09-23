@@ -13,12 +13,16 @@ int _tmain(int argc, _TCHAR* argv[])
 	system("cls");
 	for (int i = 1; i < n+1; i++)
 	{
-		a[i].setID_and_Marks(i);
+		
+		 a[i] =  Abiturient(i);
+		 a[i].setMarks();
 		a[i].setFamilia_Adress_Number();
+		Abiturient *b = new Abiturient(a[i]);
 		system("cls");
+		
 
 	}
-
+	
 	int b,d;
 	
 	do
