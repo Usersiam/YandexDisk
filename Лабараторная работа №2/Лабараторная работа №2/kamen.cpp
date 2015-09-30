@@ -3,18 +3,20 @@
 #include "conio.h"
 #include <iostream>
 using namespace std;
-Kamen::Kamen(char *name)
+
+Kamen::Kamen(void)
+{
+
+}
+void Kamen::setname(char *name)
 {
 	this->name = name;
 }
-void Kamen::set(char *name)
+void Kamen::getname()
 {
-	this->name = name;
+	cout << this->name;
+}
+Kamen::~Kamen(void)
+{
 	
 }
-void Kamen::show()
-{
-	cout  <<  name<< endl;
-}
-
-

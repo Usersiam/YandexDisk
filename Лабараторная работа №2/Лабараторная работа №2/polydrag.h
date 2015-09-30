@@ -1,12 +1,12 @@
 #pragma once
 #include "kamen.h"
-class Polydrag : public  Kamen
+class Polydrag :
+	public Kamen
 {
-
-	char *vid_kamnia;
+	char *stependia;
 public:
 	Polydrag(void);
-	void set_vid(char *vid);
-	void show_vid();
-	
+	void setPolydrag(char *x);
+	void getPolydrag();
+	~Polydrag(void);
 };

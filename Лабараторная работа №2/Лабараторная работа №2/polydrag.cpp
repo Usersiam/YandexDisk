@@ -7,18 +7,15 @@ Polydrag::Polydrag(void)
 {
 
 }
-void Polydrag::set_vid(char *vid)
+void Polydrag::setPolydrag(char *x)
 {
-	this->vid_kamnia = vid;
+	this->stependia = x;
 }
-void Polydrag::show_vid()
+void Polydrag::getPolydrag()
+{
+	cout << ": " << this->stependia << endl;
+}
+Polydrag::~Polydrag(void)
 {
 	
-	cout <<vid_kamnia << endl;
 }
-
-
-
-
-
-
