@@ -57,24 +57,51 @@ public:
 		}
 		return buf;
 	}
-	friend bool operator == (Matrix &a, Matrix &b)
+	//friend bool operator == (Matrix &a, Matrix &b)
+	//{
+	//	double buf = 0, ch=0;
+	//	for (int j = 0; j < a.ch2/*0*/; j++)
+	//	for (int i = 0; i < a.ch1; i++)
+	//	{
+	//		if (a.m[i][j/*0*/]==b.m[i][j/*0*/] && /*убрать*/a.m[i][j]==0)	
+	//		{
+	//			ch++;
+	//		}
+
+	//		
+	//					
+	//	}
+	//	if (ch == a.ch2) return true;
+	//	else return false;
+	//}
+	
+
+friend bool operator == (Matrix &a, Matrix &b)
 	{
 		double buf = 0, ch=0;
-		for (int j = 0; j < a.ch2/*0*/; j++)
+		
 		for (int i = 0; i < a.ch1; i++)
 		{
-			if (a.m[i][j/*0*/]==b.m[i][j/*0*/] && /*убрать*/a.m[i][j]==0)	
+			if (a.m[i][0]==b.m[i][0] )	
 			{
-				ch++;
+				ch++; cout << "\n MAtrica 1 = Matrica 2\n";
 			}
-
-			
-						
+			if(a.m[i][0]>b.m[i][0])
+						{
+							cout << "\n MAtrica 1 > Matrica 2\n";
+					
+				}
+			if(a.m[i][0]<b.m[i][0])
+				{
+					cout << "\n MAtrica 2 > Matrica 1\n";
+				}					
 		}
 		if (ch == a.ch2) return true;
-		else return false;
+		
+		else  return false;
 	}
-	
+
+
 	int operator() (Matrix& a) 
 	{
 		int buf=0;

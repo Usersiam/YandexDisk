@@ -63,6 +63,11 @@ int main()
 		cout << "Матрица 2\a\a\n";
 		cout_new(second, m, n);
 		cout << endl;
+
+
+		if (first == second) cout << "\n\nМатрицы равны по нулевому стобцу\n\n";
+		else cout << "\n\nМатрицы не равны по нулевому столбцу\n\n";
+
 		//===============  сумма =================================
 		
 		first + second;
@@ -82,10 +87,7 @@ int main()
 		//}
 		//=============== проверка на нулевой столбик =============
 
-		/*first - first, cout_new(first, m, n); 
-		 second - second, cout_new(second, m, n); */
 		
-		if(first == second) cout<<"\n\nМатрицы равны по нулевому стобцу\n\n";
-		else cout << "\n\nМатрицы не равны по нулевому столбцу\n\n";
+		
 			
 }
