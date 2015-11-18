@@ -1,0 +1,35 @@
+﻿Build started 18.11.2015 23:59:22.
+     1>Project "C:\Учеба\ФИТ\2 курс\ООП\Лабараторная работа №8 ( исключения )\Лабараторная работа №7 ( шаблон класса)\Лабараторная работа №7 ( шаблон класса).vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Лабараторная работа №7 ( шаблон класса).pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Лабараторная работа №7 ( шаблон класса).cpp"
+         Лабараторная работа №7 ( шаблон класса).cpp
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(150): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(200): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(201): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(202): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(203): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(339): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(340): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(341): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(342): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\матрица.h(44): warning C4244: '=' : conversion from 'double' to 'char', possible loss of data
+                 c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\матрица.h(40) : while compiling class template member function 'void Matrix<char,char>::rand_new(void)'
+                 c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(299) : see reference to function template instantiation 'void Matrix<char,char>::rand_new(void)' being compiled
+                 c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(87) : see reference to class template instantiation 'Matrix<char,char>' being compiled
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\матрица.h(54): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\матрица.h(50) : while compiling class template member function 'void Matrix<kamen,int>::rand_new_obj(void)'
+                 c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(264) : see reference to function template instantiation 'void Matrix<kamen,int>::rand_new_obj(void)' being compiled
+                 c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(200) : see reference to class template instantiation 'Matrix<kamen,int>' being compiled
+     1>c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\матрица.h(44): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\матрица.h(40) : while compiling class template member function 'void Matrix<int,int>::rand_new(void)'
+                 c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\матрица.h(245) : see reference to function template instantiation 'void Matrix<int,int>::rand_new(void)' being compiled
+                 c:\учеба\фит\2 курс\ооп\лабараторная работа №8 ( исключения )\лабараторная работа №7 ( шаблон класса)\лабараторная работа №7 ( шаблон класса).cpp(341) : see reference to class template instantiation 'Matrix<int,int>' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Учеба\ФИТ\2 курс\ООП\Лабараторная работа №8 ( исключения )\Debug\Лабараторная работа №7 ( шаблон класса).exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Учеба\ФИТ\2 курс\ООП\Лабараторная работа №8 ( исключения )\Debug\Лабараторная работа №7 ( шаблон класса).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Учеба\ФИТ\2 курс\ООП\Лабараторная работа №8 ( исключения )\Debug\Лабараторная работа №7 ( шаблон класса).lib" /MACHINE:X86 Debug\stdafx.obj
+         "Debug\Лабараторная работа №7 ( шаблон класса).obj"
+         Лабараторная работа №7 ( шаблон класса).vcxproj -> C:\Учеба\ФИТ\2 курс\ООП\Лабараторная работа №8 ( исключения )\Debug\Лабараторная работа №7 ( шаблон класса).exe
+     1>Done Building Project "C:\Учеба\ФИТ\2 курс\ООП\Лабараторная работа №8 ( исключения )\Лабараторная работа №7 ( шаблон класса)\Лабараторная работа №7 ( шаблон класса).vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.27
